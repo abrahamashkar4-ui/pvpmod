@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpsmooth",
+  "version": "${version}",
+  "name": "PvP Smooth",
+  "description": "A lightweight client-side PvP HUD with armor durability and a smooth-camera toggle.",
+  "authors": ["PvP Smooth"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.pvpsmooth.PvPSmoothClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
